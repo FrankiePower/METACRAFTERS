@@ -1,41 +1,17 @@
 # Project Title
 
-Simple overview of use/purpose.
+Creating a token with a simple function to mint and burn tokens.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
-
-### Installing
-
-- How/where to download your program
-- Any modifications needed to be made to files/folders
-
-### Executing program
-
-- How to run the program
-- Step-by-step bullets
-
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-
-```
-command to run if program contains helper info
-```
+I created a simple token as the final challenge of this course. the token has basic functionalities like mint and burn. the mint function takes an address and a value and mints the "token" to the address. the balance of the token of each address is stored in a mapping . The balances increases and decreases as the mint and burn function is called. Also the burn function cannot burn a value that is higher than the balance of the token holder.
 
 ## Authors
 
 Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+ex. Franklin Ejezie
+ex. [@FrankyEjezie](https://x.com/FrankyEjezie)
 
 ## License
 
